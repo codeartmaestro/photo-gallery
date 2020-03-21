@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <title>Leila's Photo Gallery</title>
+</head>
+
+<body class="body-flex">
+    <header class="container-top-btm body-width with-padding">
+        <nav class="nav">
+            <div class="nav-heading ver-middle">
+                <a href="index.html">
+                    <h1 class="heading">My Photo Gallery</h1>
+                </a>
+                <div id="toggleBtn" class="toggle-btn" onclick="toggleButton(this)">
+                    <div class="toggle-btn-1"></div>
+                    <div class="toggle-btn-2"></div>
+                    <div class="toggle-btn-3"></div>
+                </div>
+            </div>
+            <div id="jsNavTop" class="nav-top ver-middle slideup">
+                <ul class="nav-links">
+                    <li class="nav-link title"><a href="#">All</a></li>
+                    <li class="nav-link title"><a href="#">Iran</a></li>
+                    <li class="nav-link title"><a href="#">Russia</a></li>
+                    <li class="nav-link title"><a href="#">India</a></li>
+                    <li class="nav-link title"><a href="#">Sri Lanka</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container-main body-width">
+        <div class="frame">
+            <div class="frame-content">
+                <!-- >> Iran << -->
+                <!-- Tehran -->
+                <div class="img-container iran tehran filter">
+                    <div id="hakim" class="img" style="background-image: url('img/iran/tehran/teh-hakim-highway.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>Hakim HWY &amp; Milad Tower</h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>Tehran, Iran</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran tehran filter">
+                    <div id="ferdows" class="img"
+                        style="background-image: url('img/iran/tehran/teh-ferdows-garden.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Ferdows Garden
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Tehran, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran tehran filter">
+                    <div id="bazaar" class="img" style="background-image: url('img/iran/tehran/teh-grand-bazaar.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                The Grand Bazaar
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Tehran, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran tehran filter">
+                    <div id="azadi" class="img" style="background-image: url('img/iran/tehran/teh-azadi-tower.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Azadi Tower
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Tehran, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran tehran filter">
+                    <div id="tea" class="img" style="background-image: url('img/iran/tehran/teh-persian-tea.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Persian Tea at a Trditional Cafe
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Tehran, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran tehran filter">
+                    <div id="woman" class="img" style="background-image: url('img/iran/tehran/teh-woman-sitting.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Woman Sitting on a Roof
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Tehran, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran tehran filter">
+                    <div id="abyaz" class="img" style="background-image: url('img/iran/tehran/teh-abyaz-palace.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Abyaz Palace (White Palace)
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Tehran, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran tehran filter">
+                    <div id="arash" class="img"
+                        style="background-image: url('img/iran/tehran/teh-arash-the-archer.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Arash the Archer Statue
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Tehran, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Isfahan -->
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-aali-qapu.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Ali Qapu
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-borujerdi-house.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Borujerdi House
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-borujerdi-house-windcatchers-main-dome.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Borujerdi House Windcatchers
+                                <span>Main Dome</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-borujerdi-house-interior.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Borujerdi House
+                                <span>Interior</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-borujerdi-house-interior-main-dome.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Borujerdi House
+                                <span>Interior - Main Dome</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-day.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-night.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>at night</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-interior.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>Interior</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-novrouz-festival-shah-tahmasp-i-and-humayun.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>Fresco - Nowruz Festival</span>
+                                <span>Tahmasp I &amp; Humayun</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-fresco-abbas-the-great-and-vali-muhammad-khan.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>Fresco - Abbas the Great and Vali Muhamad Khan</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-ceiling-2.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>ceiling</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-ceiling.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>Ceiling</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-fresco-battle-of-chaldiran.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>Fresco - Battle of Chaldiran</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-ceiling-containing-aina-kari.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Chehel Sotun Palace
+                                <span>āina-kāri on ceiling</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-flower-garden.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Flower Grarden
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-khafr.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Khafr, Semirom
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-si-o-se-pol.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Si-o-se-pol (Allahverdi Khan Bridge)
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-khaju-bridge-side-left.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Si-o-se-pol - Khaju Bridge
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-khaju-bridge-detail.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Si-o-se-pol - Khaju Bridge
+                                <span>Details</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-Khaju-bridge-arches.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Si-o-se-pol - Khaju Bridge
+                                <span>Arches under the bridge</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-mesr-desert.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Mesr Desert
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-aranva-bidgol-desert.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Aran va Bidgol Desert
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-mollabashi-house.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Mollabashi House
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-mollabashi-house-interior.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Mollabashi House
+                                <span>Interior</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-monar-jonban.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Monar Jonban (Shaking minaret)
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-monar-jonban-left-minaret.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Monar Jonban
+                                <span>Left Minaret</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img" style="background-image: url('img/iran/isfahan/isf-shah-mosque.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Shah (king) Mosque
+                                <span>Left Minaret</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-shah-mosque-dome-interior.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Shah (king) Mosque
+                                <span>Left Minaret</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-sheikh-lotf-allah-mosque-exterior-qashani.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Sheikh Lotf Allah Mosque
+                                <span>Qashani</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/woman-red.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Woman standing in the mosque
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-tabatabaee-house.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Tabatabaee House
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-tabatabaee-house-interior.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Tabatabaee House
+                                <span>Interior</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-the-eight-heavens-palace-at-night.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Hasht Behesht (Eight Heavens) Palace
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-the-eight-heavens-palace-dome-interior-3.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Hasht Behesht (Eight Heavens) Palace
+                                <span>Interior - Dome</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-vank-cathedral.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Vank Cathedral
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-vank-cathedral-ceiling.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Vank Cathedral
+                                <span>Ceiling</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-vank-cathedral-monument-to-the-armenian-genocide.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Vank Cathedral
+                                <span>Monument to the Armenian Genocide</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container iran isfahan filter">
+                    <div class="img"
+                        style="background-image: url('img/iran/isfahan/isf-atashgah-western-side-enterance.jpg')">
+                    </div>
+                    <div class="img-info">
+                        <div class="img-info-title">
+                            <h3>
+                                Zoarestrian Fire Temple
+                                <span>Western side and the enterance</span>
+                            </h3>
+                        </div>
+                        <div class="img-info-subtitle">
+                            <h4>
+                                Isfahan, Iran
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div id="modalContainer" class="modal-container">
+            <div class="modal-content">
+                <div class="modal-content-inner">
+                    <button id="prev" class="modal-arrow">&#10094;</button>
+                    <div class="modal-figure">
+                        <figure>
+                            <button id="close" class="modal-close">&times;</button>
+                            <img id="modalImg" class="modal-img">
+                            <figcaption>
+                                <div id="caption" class="modal-caption"></div>
+                            </figcaption>
+                        </figure>
+                        <div class="modal-container-close"></div>
+                    </div>
+                    <button id="next" class="modal-arrow">&#10095;</button>
+                    <div class="modal-container-close"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-top-btm body-width">
+        <div class="footer">
+            <small class="copr title">
+                &copy;
+                <script type="text/JavaScript">var theDate=new Date(); document.write(theDate.getFullYear());</script> |
+                <span>Designed &amp; Developed by </span><a href="https://www.leilaahmadi.com">Leila Ahmadi</a>
+                <span>| some rights reserved</span>
+            </small>
+            <ul class="footer-links">
+                <li class="footer-link title">
+                    <a href="#">
+                        <span><small>Facebook</small></span>
+                        <img class="icon" src="img/icons/facebook.svg" alt="Facebook logo"
+                            srcset="img/icons/facebook.png">
+                    </a>
+                </li>
+                <li class="footer-link title">
+                    <a href="#">
+                        <span><small>Twitter</small></span>
+                        <img class="icon" src="img/icons/twitter.svg" alt="Twitter logo" srcset="img/icons/twitter.png">
+                    </a>
+                </li>
+                <li class="footer-link title">
+                    <a href="#">
+                        <span><small>Instagram</small></span>
+                        <img class="icon" src="img/icons/instagram.svg" alt="Instagram logo"
+                            srcset="img/icons/instagram.png">
+                    </a>
+                </li>
+                <li class="footer-link title">
+                    <a href="#">
+                        <span><small>Pinterest</small></span>
+                        <img class="icon" src="img/icons/pinterest.svg" alt="Pinterest logo"
+                            srcset="img/icons/pinterest.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
