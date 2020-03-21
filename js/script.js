@@ -93,7 +93,7 @@ $(window).ready(function() {
     cursorwidth: "4px",
     cursorminheight: 100,
     cursorfixedheight: false,
-    zindex: [0],
+    zindex: [2],
     autohidemode: true,
     smoothscroll: true,
     boxzoom: false,
