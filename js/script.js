@@ -53,8 +53,8 @@ modalImg.addEventListener("click", nextImage);
 function animate(i) {
   modalImg.src = imgArr[i].style.backgroundImage.slice(4, -1).replace(/"/g, "");
   caption.innerHTML = captionArr[currentIndex];
-  modalImg.style.animationName = "fadeInLeft";
   modalImg.alt = captionArr[currentIndex];
+  modalImg.style.animationName = "fadeInLeft";
 }
 
 function nextImage() {
