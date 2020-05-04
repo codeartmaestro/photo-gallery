@@ -1,3 +1,5 @@
+"use strict"
+
 // Copyright Date
 window.onload = function () {
    document.getElementById('coprDate').textContent = new Date().getFullYear();
@@ -23,7 +25,6 @@ for (var i = 0; i < captionInfo.length; i++) {
       captionValue.querySelector('h3').textContent.trim() +
       ' | ' +
       captionValue.querySelector('h4').textContent.trim();
-   // console.log(captionValueText);
    captionArr.push(captionValueText);
 }
 
@@ -32,19 +33,22 @@ var modal = document.getElementById('modalContainer');
 var modalImg = document.getElementById('modalImg');
 var imgArr = document.querySelectorAll('.img-container .img');
 var currentIndex;
-
-imgArr.forEach(function (img, i) {
-   img.onclick = function () {
-      var backgroundImage = img.style.backgroundImage.slice(4, -1).replace(/"/g, '');
-      modal.style.display = 'block';
-      modalImg.src = backgroundImage;
-      currentIndex = i;
-      modalImg.alt = captionArr[i];
-      // console.log(modalImg.alt);
-      caption.innerHTML = captionArr[i];
-      modalImg.style.animation = 'fadeInLeft .4s both';
+for (var i = 0; i < imgArr.length; i++) {
+   var img = imgArr[i];
+   var imgDisplay = function (img, i) {
+      img.onclick = function () {
+         var backgroundImage = img.style.backgroundImage.slice(4, -1).replace(/"/g, '');
+         modal.style.display = 'block';
+         modalImg.src = backgroundImage;
+         currentIndex = i;
+         modalImg.alt = captionArr[i];
+         // console.log(modalImg.alt);
+         caption.innerHTML = captionArr[i];
+         modalImg.style.animation = 'fadeInLeft .4s both';
+      };
    };
-});
+   imgDisplay(img, i);
+}
 
 // previous and next buttons
 var prev = document.querySelector('#prev');
