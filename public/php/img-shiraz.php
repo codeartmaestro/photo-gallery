@@ -1,5 +1,5 @@
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-persepolis-tachara-2.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-persepolis-tachara-2.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -16,7 +16,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-persepolis-apadana-palace.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-persepolis-apadana-palace.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -33,7 +33,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-persepolis-apadana-palace-stairs-relief.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-persepolis-apadana-palace-stairs-relief.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -52,7 +52,7 @@
 </div>
 <div class="img-container iran shiraz filter">
     <div class="img"
-        style="background-image: url('img/iran/shiraz/shz-persepolis-apadana-palace-stairs-cypresses-lotuses.jpg')">
+        style="background-image: url('public/img/iran/shiraz/shz-persepolis-apadana-palace-stairs-cypresses-lotuses.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -70,7 +70,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-persepolis-bas-relief-artaxerxes-i.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-persepolis-bas-relief-artaxerxes-i.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -88,7 +88,7 @@
 </div>
 <div class="img-container iran shiraz filter">
     <div class="img"
-        style="background-image: url('img/iran/shiraz/shz-persepolis-bas-relief-the-lion-bull-combat.jpg')">
+        style="background-image: url('public/img/iran/shiraz/shz-persepolis-bas-relief-the-lion-bull-combat.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -106,7 +106,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-persepolis-all-nations-palace-gate.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-persepolis-all-nations-palace-gate.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -123,7 +123,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-persepolis-tomb-artaxerxes-iii.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-persepolis-tomb-artaxerxes-iii.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -141,7 +141,7 @@
 </div>
 <div class="img-container iran shiraz filter">
     <div class="img"
-        style="background-image: url('img/iran/shiraz/shz-persepolis-levee-xerxes-i-imperial-treasury-house.jpg')">
+        style="background-image: url('public/img/iran/shiraz/shz-persepolis-levee-xerxes-i-imperial-treasury-house.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -175,7 +175,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-shapouri-house.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-shapouri-house.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -191,7 +191,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-qavam-house-garden.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-qavam-house-garden.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -208,7 +208,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-qavam-house-exterior.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-qavam-house-exterior.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -225,7 +225,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-qavam-house-stucco-in-one-of-the-porches.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-qavam-house-stucco-in-one-of-the-porches.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -242,7 +242,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-qavam-house-fresco.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-qavam-house-fresco.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -259,7 +259,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-qavam-house-mirrored-hall.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-qavam-house-mirrored-hall.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -276,7 +276,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-saadi-mausoleum.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-saadi-mausoleum.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -292,7 +292,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-saadi-mausoleum-tomb.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-saadi-mausoleum-tomb.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -309,7 +309,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-saadi-mausoleum-tiles.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-saadi-mausoleum-tiles.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -327,7 +327,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-vakil-bazaar.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-vakil-bazaar.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -343,7 +343,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-vakil-bazaar-carpet-gallery.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-vakil-bazaar-carpet-gallery.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -360,7 +360,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-vakil-bazaar-spices.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-vakil-bazaar-spices.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -377,7 +377,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-vakil-bazaar-mosque.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-vakil-bazaar-mosque.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -394,7 +394,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-vakil-bazaar-qashani.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-vakil-bazaar-qashani.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -411,7 +411,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-vakil-bazaar-door-2.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-vakil-bazaar-door-2.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -428,7 +428,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-vakil-bazaar-door.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-vakil-bazaar-door.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -445,7 +445,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-hafez-mausoleum-night.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-hafez-mausoleum-night.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -461,7 +461,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-hafez-mausoleum-dome.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-hafez-mausoleum-dome.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -478,7 +478,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-nasir-al-molk-mosque.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-nasir-al-molk-mosque.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -495,7 +495,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <div class="img" style="background-image: url('img/iran/shiraz/shz-nasir-al-molk-mosque-wall.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/shiraz/shz-nasir-al-molk-mosque-wall.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">

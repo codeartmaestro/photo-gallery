@@ -1,5 +1,5 @@
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-aali-qapu.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-aali-qapu.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -15,7 +15,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-borujerdi-house.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-borujerdi-house.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -31,7 +31,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-borujerdi-house-windcatchers-main-dome.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-borujerdi-house-windcatchers-main-dome.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -48,7 +48,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-borujerdi-house-interior.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-borujerdi-house-interior.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -65,7 +65,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-borujerdi-house-interior-main-dome.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-borujerdi-house-interior-main-dome.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -82,7 +82,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-day.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-day.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -98,7 +98,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-night.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-night.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -115,7 +115,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-interior.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-interior.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -133,7 +133,7 @@
 </div>
 <div class="img-container iran isfahan filter">
     <div class="img"
-        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-novrouz-festival-shah-tahmasp-i-and-humayun.jpg')">
+        style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-novrouz-festival-shah-tahmasp-i-and-humayun.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -152,7 +152,7 @@
 </div>
 <div class="img-container iran isfahan filter">
     <div class="img"
-        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-fresco-abbas-the-great-and-vali-muhammad-khan.jpg')">
+        style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-fresco-abbas-the-great-and-vali-muhammad-khan.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -169,7 +169,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-ceiling-2.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-ceiling-2.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -186,7 +186,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-ceiling.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-ceiling.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -204,7 +204,7 @@
 </div>
 <div class="img-container iran isfahan filter">
     <div class="img"
-        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-fresco-battle-of-chaldiran.jpg')">
+        style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-fresco-battle-of-chaldiran.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -222,7 +222,7 @@
 </div>
 <div class="img-container iran isfahan filter">
     <div class="img"
-        style="background-image: url('img/iran/isfahan/isf-chehel-sotun-palace-ceiling-containing-aina-kari.jpg')">
+        style="background-image: url('public/img/iran/isfahan/isf-chehel-sotun-palace-ceiling-containing-aina-kari.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -239,7 +239,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-flower-garden.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-flower-garden.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -255,7 +255,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-khafr.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-khafr.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -271,7 +271,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-si-o-se-pol.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-si-o-se-pol.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -287,7 +287,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-khaju-bridge-side-left.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-khaju-bridge-side-left.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -303,7 +303,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-khaju-bridge-detail.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-khaju-bridge-detail.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -320,7 +320,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-Khaju-bridge-arches.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-Khaju-bridge-arches.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -337,7 +337,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-mesr-desert.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-mesr-desert.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -353,7 +353,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-aranva-bidgol-desert.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-aranva-bidgol-desert.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -369,7 +369,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-mollabashi-house.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-mollabashi-house.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -385,7 +385,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-mollabashi-house-interior.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-mollabashi-house-interior.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -402,7 +402,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-monar-jonban.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-monar-jonban.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -418,7 +418,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-monar-jonban-left-minaret.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-monar-jonban-left-minaret.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -435,7 +435,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-shah-mosque.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-shah-mosque.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -452,7 +452,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-shah-mosque-dome-interior.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-shah-mosque-dome-interior.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -470,7 +470,7 @@
 </div>
 <div class="img-container iran isfahan filter">
     <div class="img"
-        style="background-image: url('img/iran/isfahan/isf-sheikh-lotf-allah-mosque-exterior-qashani.jpg')">
+        style="background-image: url('public/img/iran/isfahan/isf-sheikh-lotf-allah-mosque-exterior-qashani.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -487,7 +487,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/woman-red.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/woman-red.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -503,7 +503,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-tabatabaee-house.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-tabatabaee-house.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -519,7 +519,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-tabatabaee-house-interior.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-tabatabaee-house-interior.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -536,7 +536,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-the-eight-heavens-palace-at-night.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-the-eight-heavens-palace-at-night.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -552,7 +552,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-the-eight-heavens-palace-dome-interior-3.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-the-eight-heavens-palace-dome-interior-3.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -569,7 +569,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-vank-cathedral.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-vank-cathedral.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -585,7 +585,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-vank-cathedral-ceiling.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-vank-cathedral-ceiling.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -603,7 +603,7 @@
 </div>
 <div class="img-container iran isfahan filter">
     <div class="img"
-        style="background-image: url('img/iran/isfahan/isf-vank-cathedral-monument-to-the-armenian-genocide.jpg')">
+        style="background-image: url('public/img/iran/isfahan/isf-vank-cathedral-monument-to-the-armenian-genocide.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -620,7 +620,7 @@
     </div>
 </div>
 <div class="img-container iran isfahan filter">
-    <div class="img" style="background-image: url('img/iran/isfahan/isf-atashgah-western-side-enterance.jpg')">
+    <div class="img" style="background-image: url('public/img/iran/isfahan/isf-atashgah-western-side-enterance.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">

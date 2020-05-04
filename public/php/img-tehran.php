@@ -1,5 +1,5 @@
 <div class="img-container iran tehran filter">
-    <div id="hakim" class="img" style="background-image: url('img/iran/tehran/teh-hakim-highway.jpg')">
+    <div id="hakim" class="img" style="background-image: url('public/img/iran/tehran/teh-hakim-highway.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -11,7 +11,7 @@
     </div>
 </div>
 <div class="img-container iran tehran filter">
-    <div id="ferdows" class="img" style="background-image: url('img/iran/tehran/teh-ferdows-garden.jpg')">
+    <div id="ferdows" class="img" style="background-image: url('public/img/iran/tehran/teh-ferdows-garden.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -27,7 +27,7 @@
     </div>
 </div>
 <div class="img-container iran tehran filter">
-    <div id="bazaar" class="img" style="background-image: url('img/iran/tehran/teh-grand-bazaar.jpg')">
+    <div id="bazaar" class="img" style="background-image: url('public/img/iran/tehran/teh-grand-bazaar.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -43,7 +43,7 @@
     </div>
 </div>
 <div class="img-container iran tehran filter">
-    <div id="azadi" class="img" style="background-image: url('img/iran/tehran/teh-azadi-tower.jpg')">
+    <div id="azadi" class="img" style="background-image: url('public/img/iran/tehran/teh-azadi-tower.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -59,7 +59,7 @@
     </div>
 </div>
 <div class="img-container iran tehran filter">
-    <div id="tea" class="img" style="background-image: url('img/iran/tehran/teh-persian-tea.jpg')">
+    <div id="tea" class="img" style="background-image: url('public/img/iran/tehran/teh-persian-tea.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -75,7 +75,7 @@
     </div>
 </div>
 <div class="img-container iran tehran filter">
-    <div id="woman" class="img" style="background-image: url('img/iran/tehran/teh-woman-sitting.jpg')">
+    <div id="woman" class="img" style="background-image: url('public/img/iran/tehran/teh-woman-sitting.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -91,7 +91,7 @@
     </div>
 </div>
 <div class="img-container iran tehran filter">
-    <div id="abyaz" class="img" style="background-image: url('img/iran/tehran/teh-abyaz-palace.jpg')">
+    <div id="abyaz" class="img" style="background-image: url('public/img/iran/tehran/teh-abyaz-palace.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">
@@ -107,7 +107,7 @@
     </div>
 </div>
 <div class="img-container iran tehran filter">
-    <div id="arash" class="img" style="background-image: url('img/iran/tehran/teh-arash-the-archer.jpg')">
+    <div id="arash" class="img" style="background-image: url('public/img/iran/tehran/teh-arash-the-archer.jpg')">
     </div>
     <div class="img-info">
         <div class="img-info-title">

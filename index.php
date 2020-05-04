@@ -30,7 +30,7 @@
     <?php include 'public/php/footer.php'; ?>
 
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="public/js/jquery.nicescroll.min.js"></script>
     <script src="public/js/script.js"></script>
 </body>
 

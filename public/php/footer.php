@@ -2,7 +2,7 @@
     <div class="footer">
         <small class="copr title">
             &copy;
-            <script type="text/JavaScript">var theDate=new Date(); document.write(theDate.getFullYear());</script> |
+            <span id="coprDate"></span> |
             <span>Designed &amp; Developed by </span><a href="https://www.leilaahmadi.com">Leila Ahmadi</a>
             <span>| some rights reserved</span>
         </small>
