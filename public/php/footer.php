@@ -10,27 +10,25 @@
             <li class="footer-link title">
                 <a href="#">
                     <span><small>Facebook</small></span>
-                    <img class="icon" src="img/icons/facebook.svg" alt="Facebook logo" srcset="img/icons/facebook.png">
+                    <img class="icon" src="public/img/icons/facebook.svg" alt="Facebook logo" srcset="public/img/icons/facebook.png">
                 </a>
             </li>
             <li class="footer-link title">
                 <a href="#">
                     <span><small>Twitter</small></span>
-                    <img class="icon" src="img/icons/twitter.svg" alt="Twitter logo" srcset="img/icons/twitter.png">
+                    <img class="icon" src="public/img/icons/twitter.svg" alt="Twitter logo" srcset="public/img/icons/twitter.png">
                 </a>
             </li>
             <li class="footer-link title">
                 <a href="#">
                     <span><small>Instagram</small></span>
-                    <img class="icon" src="img/icons/instagram.svg" alt="Instagram logo"
-                        srcset="img/icons/instagram.png">
+                    <img class="icon" src="public/img/icons/instagram.svg" alt="Instagram logo" srcset="public/img/icons/instagram.png">
                 </a>
             </li>
             <li class="footer-link title">
                 <a href="#">
                     <span><small>Pinterest</small></span>
-                    <img class="icon" src="img/icons/pinterest.svg" alt="Pinterest logo"
-                        srcset="img/icons/pinterest.png">
+                    <img class="icon" src="public/img/icons/pinterest.svg" alt="Pinterest logo" srcset="public/img/icons/pinterest.png">
                 </a>
             </li>
         </ul>
