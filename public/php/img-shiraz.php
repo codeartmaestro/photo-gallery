@@ -158,7 +158,7 @@
     </div>
 </div>
 <div class="img-container iran shiraz filter">
-    <iframe class="video" width="100%" height="100%" src="https://www.youtube.com/embed/fVaO5X77apA" frameborder="0"
+    <iframe class="video img" width="100%" height="100%" src="https://www.youtube.com/embed/fVaO5X77apA" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <div class="img-info">
