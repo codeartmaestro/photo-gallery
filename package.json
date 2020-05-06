@@ -1,0 +1,39 @@
+{
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "A simple photo gallery website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leila-ai/photo-gallery.git"
+  },
+  "author": "Leila Ahmadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leila-ai/photo-gallery/issues"
+  },
+  "homepage": "https://github.com/leila-ai/photo-gallery#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "grunt": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "pixrem": "^5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "IE 6-10"
+  ]
+}
