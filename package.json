@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A simple photo gallery website",
   "main": "index.js",
-  "scripts": {
-    "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leila-ai/photo-gallery.git"
