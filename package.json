@@ -5,26 +5,31 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leila-ai/photo-gallery.git"
+    "url": "git+https://github.com/leila-io/photo-gallery.git"
   },
   "author": "Leila Ahmadi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leila-ai/photo-gallery/issues"
+    "url": "https://github.com/leila-io/photo-gallery.git/issues"
   },
-  "homepage": "https://github.com/leila-ai/photo-gallery#readme",
+  "homepage": "https://github.com/leila-io/photo-gallery.git#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.6",
     "grunt": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
     "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-postcss": "^0.9.0",
-    "node-sass": "^4.13.1"
+    "grunt-responsive-images": "^1.10.1",
+    "grunt-spritesmith": "^6.8.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-php2html": "^0.3.4"
   },
   "dependencies": {
     "pixrem": "^5.0.0"

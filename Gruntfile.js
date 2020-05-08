@@ -1,38 +1,25 @@
 module.exports = function (grunt) {
-   
    grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
-
       concat: {
-         dist: {
-            src: [
-               'src/js/app.js', 
-               'src/js/libs/*.js',
-            ],
+         js: {
+            src: ['src/js/libs/*.js', 'src/js/app.js'],
             dest: 'build/js/script.js',
          },
+         css: {
+            src: ['src/css/**/*.css'],
+            dest: 'build/css/style.css',
+         },
       },
-
       uglify: {
          build: {
             src: 'build/js/script.js',
             dest: 'build/js/script.min.js',
          },
       },
-
-      imagemin: {
-         dynamic: {
-            files: [
-               {
-                  expand: true,
-                  cwd: 'src/assets',
-                  src: ['**/*.{png,jpg,gif}'],
-                  dest: 'build/assets/',
-               },
-            ],
-         },
+      jshint: {
+         all: ['Gruntfile.js', 'src/js/app.js'],
       },
-
       sass: {
          dist: {
             options: {
@@ -44,13 +31,12 @@ module.exports = function (grunt) {
                   expand: true,
                   cwd: 'src/sass',
                   src: ['**/*.scss'],
-                  dest: 'build/css/',
+                  dest: 'src/css/',
                   ext: '.css',
                },
             ],
          },
       },
-
       cssmin: {
          target: {
             files: [
@@ -64,7 +50,6 @@ module.exports = function (grunt) {
             ],
          },
       },
-
       postcss: {
          options: {
             map: true, // inline sourcemaps
@@ -78,9 +63,63 @@ module.exports = function (grunt) {
             src: 'build/css/style.css',
          },
       },
-
-      jshint: {
-         all: ['Gruntfile.js', 'src/js/app.js'],
+      sprite: {
+         all: {
+            src: 'src/assets/icon/*.png',
+            dest: 'build/assets/icon/_sprites.png',
+            destCss: 'src/css/sprites.css',
+         },
+      },
+      responsive_images: {
+         options: {
+            engine: 'im',
+            newFilesOnly: true,
+            size: [
+               { name: 'small', width: 320 },
+               { name: 'medium', width: 640 },
+               { name: 'large', width: 1024 },
+               {
+                  name: 'large',
+                  width: 2000,
+                  suffix: '_x2',
+                  quality: 60,
+               },
+            ],
+         },
+         files: {
+            expand: true,
+            cwd: 'zarchive/img-full',
+            src: ['**/*.{png,jpg,gif}'],
+            dest: 'build/assets/full/',
+         },
+      },
+      copy: {
+         dev: {
+            files: [
+               {
+                  expand: true,
+                  cwd: 'src/assets/icon',
+                  src: ['**/*.{svg,jpg,png}'],
+                  dest: 'build/assets/icon',
+               },
+            ],
+         },
+      },
+      htmlmin: {
+         dist: {
+            options: {
+               removeComments: true,
+               collapseWhitespace: true,
+            },
+            files: [
+               {
+                  expand: true,
+                  cwd: 'src',
+                  src: ['*.html'],
+                  dest: 'build',
+               },
+            ],
+         },
       },
       // =======================================
       watch: {
@@ -105,19 +144,30 @@ module.exports = function (grunt) {
    grunt.loadNpmTasks('grunt-contrib-concat');
    grunt.loadNpmTasks('grunt-contrib-uglify');
    grunt.loadNpmTasks('grunt-contrib-jshint');
-   grunt.loadNpmTasks('grunt-contrib-imagemin');
    grunt.loadNpmTasks('grunt-contrib-sass');
    grunt.loadNpmTasks('grunt-contrib-cssmin');
    grunt.loadNpmTasks('grunt-postcss');
+   grunt.loadNpmTasks('grunt-responsive-images');
+   grunt.loadNpmTasks('grunt-contrib-copy');
+   grunt.loadNpmTasks('grunt-spritesmith');
+   grunt.loadNpmTasks('grunt-contrib-htmlmin');
    grunt.loadNpmTasks('grunt-contrib-watch');
 
    grunt.registerTask('default', [
-      'concat',
+      'htmlmin',
+      'concat:js',
       'uglify',
       'sass',
+      'concat:css',
       'postcss',
       'cssmin',
-      'imagemin',
+      'copy',
+      'sprite',
+      'responsive_images',
       'jshint',
    ]);
+   grunt.registerTask('css', ['sass', 'concat:css', 'postcss', 'cssmin']);
+   grunt.registerTask('js', ['jshint', 'concat:js', 'uglify']);
+   grunt.registerTask('img', ['copy', 'sprite', 'responsive_images']);
+   grunt.registerTask('html', ['htmlmin']);
 };
